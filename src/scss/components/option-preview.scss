@@ -1,0 +1,32 @@
+    .option {
+        width: 349px;
+        height: 215px;
+        text-align: center;
+        // border: 1px solid white;
+        margin: 50px;
+        .img-container {
+            width: 104px;
+            height: 104px;
+            margin: 0 auto;
+            margin-bottom: 16px;
+            img {
+                // padding: 50px 0;
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+                // width: 104px;
+                // height: 104px;
+            }
+        }
+        .option-title {
+            font-weight: 700;
+            font-size: toRem(20);
+            line-height: 23.4px;
+            margin-bottom: 9px;
+        }
+        .option-subtext {
+            font-weight: 400;
+            font-size: toRem(14);
+            line-height: 23.4px;
+        }
+    }

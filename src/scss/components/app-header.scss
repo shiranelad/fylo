@@ -1,0 +1,22 @@
+.app-header {
+
+    .logo {
+        width: 176px;
+        height: 52px;
+        img {
+            object-fit: contain;
+            width: 100%;
+        }
+    }
+    margin: 10px;
+
+    .nav-list{
+        font-family: 'Raleway', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        li {
+            padding: 20px;
+        }
+
+    }
+}

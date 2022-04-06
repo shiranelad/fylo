@@ -1,0 +1,67 @@
+.main-app {
+    width: 100%;
+    position: relative;
+
+    .intro {
+        .intro-img {
+            margin: 0 auto;
+            margin-bottom: 36px;
+        }
+
+        .main-text {
+            font-weight: 700;
+            font-size: toRem(40);
+            margin: 0 auto;
+            width: toRem(734);
+            height: toRem(120);
+            text-align: center;
+            margin-bottom: 154px;
+        }
+
+        .get-started {
+            width: toRem(280);
+            height: toRem(56);
+            margin: 0 auto;
+            background-image: linear-gradient(to bottom right, $clr5, $clr6);
+            font-size: toRem(16);
+            font-weight: 700;
+            border-radius: 40px;
+            color: white;
+            line-height: 30px;
+            letter-spacing: 1px;
+            margin-bottom: 158px;
+        }
+    }
+    .options-container {
+        margin: 0 auto 137px auto;
+        display: grid;
+        width: 880px;
+        // height: 506px;
+        grid-column-gap: 154px;
+        grid-row-gap: 78px;
+    }
+    
+    .productive {
+        margin: 0 auto;
+        .productive-img {
+            width: 615px;
+            height: 464px;
+            img {
+                width: 100%;
+            }
+        }
+        .productive-text {
+            justify-content: center;
+            padding: 40px;
+            font-size: toRem(16);
+            .title {
+                font-size: 40px;
+                font-weight: 700;
+            }
+            .productive-link {
+                color: $clr5;
+                text-decoration: underline;
+            }
+        }
+    }
+}

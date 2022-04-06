@@ -1,0 +1,18 @@
+// SETUP
+@import 'basics/_mediaqueries.scss';
+@import 'setup/typography';
+@import 'setup/variables';
+@import 'setup/mixins';
+@import 'setup/functions';
+
+// BASICS
+@import 'basics/base';
+@import 'basics/helper';
+@import 'basics/layout';
+
+// COMPONENTS
+@import 'components/app-container.scss';
+@import 'components/app-header.scss';
+@import 'components/footer.scss';
+@import 'components/home.scss';
+@import 'components/option-preview.scss';
