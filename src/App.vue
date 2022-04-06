@@ -2,7 +2,7 @@
   <section class="app-container container">
     <app-header />
     <router-view />
-    <footer />
+    <footer>HELLO</footer>
   </section>
 </template>
 

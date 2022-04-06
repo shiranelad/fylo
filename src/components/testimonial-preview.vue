@@ -1,25 +1,28 @@
 <template>
-<div class="testimonial flex col space-between">
-        <div class="img-container">
-          <img :src="testimonial.img" />
-        </div>
-        <div class="testimonial-title">{{testimonial.content}}</div>
-        <div class="testimonial-subtext">{{testimonial.name}}</div>
-        <div class="testimonial-subtext">{{testimonial.position}}</div>
+  <div class="testimonial flex col justify-center">
+    <div class="testimonial-content">{{ testimonial.content }}</div>
+    <div class="flex sign">
+      <div class="img-container">
+        <img class="test-img" :src="testimonial.img" />
       </div>
+      <div class="flex col test-name">
+        <div class="testimonial-name">{{ testimonial.name }}</div>
+        <div class="testimonial-position">{{ testimonial.position }}</div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
-
 export default {
-  props: ['testimonial'],
+  props: ["testimonial"],
   components: {},
   created() {},
   data() {
-    return {}
+    return {};
   },
   methods: {},
   computed: {},
   unmounted() {},
-}
+};
 </script>

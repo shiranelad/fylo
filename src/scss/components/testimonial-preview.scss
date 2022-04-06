@@ -1,0 +1,39 @@
+.testimonial {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: $clr4;            
+    width: 360px;
+    height: 200px;
+    margin: 0 26px;
+    padding: 26px;
+    border-radius: 5px;
+    .testimonial-content {
+        width: 309px;
+        height: 82px;
+        margin-bottom: 26px;
+    }
+    .sign {
+        width: 116;
+        height: 26px;
+        // justify-content: space-between;
+        .img-container {
+            .test-img {
+                margin-right: 8px;
+                width: 24px;
+                height: 24px;
+                border-radius: 50%;
+            }
+        }
+        .test-name{
+            .testimonial-name{
+                font-size: 10px;
+                font-weight: 700;
+            }
+            .testimonial-position{
+                font-size: 7px;
+                font-weight: 400;
+
+            }
+        }
+    }
+}
